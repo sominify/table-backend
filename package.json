@@ -1,0 +1,18 @@
+{
+  "name": "table-order-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fcm-node": "^1.2.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
